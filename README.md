@@ -1,7 +1,5 @@
-# renameTags
-Rename INFO field tags in VCF files.
 
-Simple Scala script to rename tags in INFO field in a given VCF file. 
+Simple Scala script to rename tags in `INFO` field in a given VCF file. 
 Metadata in preamble of VCF file is updated accordingly.
 
 Create a jar file with
@@ -9,7 +7,7 @@ Create a jar file with
 sbt package
 ```
 
-Rename AC and AF tags on a bgzip compressed VCF file for with
+Rename `AC` and `AF` tags on a bgzip compressed VCF file for instance  with
 
 ```
 zcat file.vcf.gz \
